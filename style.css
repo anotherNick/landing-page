@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+}
+
+.hero{
+    background-color: #1F2937;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+
+    padding-top: 16px;
+    margin-bottom: 100px;
+    width: 900px;
+}
+
+.header-links{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+
+    font-size: 18px;
+    font-weight: 500;
+    color: #E5E7EB;
+}
+
+.intro-container{
+   display: flex;
+   justify-content: center;
+   gap: 16px;
+
+    width: 900px;
+    margin-bottom: 100px;
+}
+
+.intro-text{
+    flex: 1 0 420px;
+
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.intro-container img{
+    flex: 1 0 420px;
+}
+
+.intro-text h2{
+    margin: 0px;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.intro-text button{
+    display: block;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin-top: 16px;
+    width: 120px;
+    height: 32px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 7px;
+    border: 0px;
+}
+
+.cards-container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    width: 900px;
+}
+
+.cards-container h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+
+    margin: 42px 0;
+}
+
+.cards{
+    display: flex;
+    margin-bottom: 100px;
+
+    gap: 42px;
+}
+
+.card{
+    width: 154px;
+
+    text-align: center;
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+    border: solid 4px  #3882F6;
+    border-radius: 16px;
+}
+
+.quote-container{
+    background-color: #E5E7Eb;
+    width: 100%;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.quote-container p{
+    width: 900px;
+}
+
+.footer{
+    background-color: #1F2937;
+}
