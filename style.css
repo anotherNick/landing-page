@@ -162,16 +162,45 @@ ul{
 }
 
 .call-to-action-container{
+    box-sizing: border-box;
     width: 900px;
     background-color: #3882F6;
     border-radius: 10px;
     margin: 75px 0;
+    padding: 42px 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .call-to-action-container p{
-    margin: 42px 100px;
+    color: #E5E7EB;
+}
+
+.call-to-action-container p strong{
+    display:block;
+
+    font-size: 20px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.call-to-action-container button{
+    background-color:#3882F6;
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+    color:#F9FAF8;
+    font-weight: 900;
+    width: 150px;
+    height: 40px;
 }
 
 .footer{
     background-color: #1F2937;
+    width: 100%;
+    font-size: 16px;
+    color: #F9FAF8;
+    padding: 32px 0;
+    text-align: center;
 }
