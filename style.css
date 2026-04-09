@@ -1,10 +1,9 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 
 body {
     height: 100vh;
     margin: 0;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
 
     display: flex;
@@ -113,10 +112,12 @@ ul{
 }
 
 .cards{
-    display: flex;
+    width: 100%;
     margin-bottom: 100px;
 
-    gap: 42px;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
 }
 
 .card{
@@ -127,7 +128,7 @@ ul{
 
 .card img{
     width: 150px;
-    height: 150px;
+    height: 150px;;
     border: solid 4px  #3882F6;
     border-radius: 16px;
 }
@@ -135,6 +136,7 @@ ul{
 .quote-container{
     background-color: #E5E7Eb;
     width: 100%;
+    padding: 100px 0;
 
     display: flex;
     flex-flow: column;
@@ -142,7 +144,32 @@ ul{
 }
 
 .quote-container p{
+    width: 775px;
+    margin: 0px;
+}
+
+.quote-text{
+    font-size:36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author{
+    font-size: 25px;
+    font-weight: 900;
+    text-align: right;
+}
+
+.call-to-action-container{
     width: 900px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 75px 0;
+}
+
+.call-to-action-container p{
+    margin: 42px 100px;
 }
 
 .footer{
