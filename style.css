@@ -85,6 +85,9 @@ color: #E5E7EB;
 
 .intro-container img{
     flex: 1 0 420px;
+    width: 442px;
+    border: 4px solid #1F2937;
+    border-radius: 16px;
 }
 
 .intro-text h2{
