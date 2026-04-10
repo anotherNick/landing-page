@@ -1,11 +1,10 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 
 body {
     height: 100vh;
     margin: 0;
     font-family: Roboto, sans-serif;
-    background-color: #0B1320;
 
     display: flex;
     flex-flow: column;
@@ -24,8 +23,7 @@ ul{
 }
 
 .hero{
-    background-color: #0B1320;
-    border-bottom: 2px solid #404A56;
+    background-color: #1F2937;
 
     display: flex;
     flex-flow: column;
@@ -34,32 +32,22 @@ ul{
     width: 100%;
 }
 
-.header-wrapper{
-    width: 100%;
-    background-color: #1F2937;
-    margin-bottom: 100px;
-    border-bottom: 2px solid #404A56;
-
-    display:flex;
-    justify-content: center;
-}
-
 .header{
     display: flex;
     justify-content: space-between;
 
     font-size: 24px;
-    color: #00FF66;
+    color: #F9FAF8;
     font-weight: 900;
 
-    padding: 12px 0;
+    padding-top: 16px;
+    margin-bottom: 100px;
     width: 900px;
 }
 
 .header-links{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
     gap: 16px;
 
     font-size: 18px;
@@ -80,7 +68,7 @@ ul{
     flex: 1 0 420px;
 
     font-size: 18px;
-color: #E5E7EB;
+    color: #E5E7EB;
 }
 
 .intro-container img{
@@ -91,13 +79,13 @@ color: #E5E7EB;
     margin: 0px;
     font-size: 48px;
     font-weight: 900;
-    color: #404A56;
+    color: #F9FAF8;
 }
 
 .intro-text button{
     display: block;
-    background-color: #00FF66;
-    color: #000;
+    background-color: #3882F6;
+    color: #E5E7EB;
     margin-top: 16px;
     width: 120px;
     height: 32px;
@@ -108,29 +96,24 @@ color: #E5E7EB;
 }
 
 .cards-container{
-    background-color: #1F2937;
-    border-bottom: 2px solid black;
     display: flex;
     flex-flow: column;
     align-items: center;
 
-    width: 100%;
+    width: 900px;
 }
 
 .cards-container h2{
     font-size: 36px;
     font-weight: 900;
-    text-align: center;
-    color: #000;
-    width: 900px;
+    color: #1F2937;
 
     margin: 42px 0;
 }
 
 .cards{
-    width: 900px;;
+    width: 100%;
     margin-bottom: 100px;
-    color: #E5E7EB;
 
     display: flex;
     justify-content: center;
@@ -146,15 +129,14 @@ color: #E5E7EB;
 .card img{
     width: 150px;
     height: 150px;;
-    border: solid 4px  #00FF66;
+    border: solid 4px  #3882F6;
     border-radius: 16px;
 }
 
 .quote-container{
-    background-color: #E5E7EB;
+    background-color: #E5E7Eb;
     width: 100%;
     padding: 100px 0;
-    border-bottom: 2px solid black;
 
     display: flex;
     flex-flow: column;
@@ -182,8 +164,7 @@ color: #E5E7EB;
 .call-to-action-container{
     box-sizing: border-box;
     width: 900px;
-    background-color: #A3FFB3;
-    border: 2px solid #404A56;
+    background-color: #3882F6;
     border-radius: 10px;
     margin: 75px 0;
     padding: 42px 100px;
@@ -194,7 +175,7 @@ color: #E5E7EB;
 }
 
 .call-to-action-container p{
-    color: #1F2937;
+    color: #E5E7EB;
 }
 
 .call-to-action-container p strong{
@@ -202,14 +183,14 @@ color: #E5E7EB;
 
     font-size: 20px;
     font-weight: 900;
-    color: black;
+    color: #F9FAF8;
 }
 
 .call-to-action-container button{
-    background-color:#00FF66;
-    border: 2px solid black;
+    background-color:#3882F6;
+    border: 2px solid #E5E7EB;
     border-radius: 10px;
-    color: black;
+    color:#F9FAF8;
     font-weight: 900;
     width: 150px;
     height: 40px;
@@ -222,6 +203,4 @@ color: #E5E7EB;
     color: #F9FAF8;
     padding: 32px 0;
     text-align: center;
-    border-top: 2px solid #404A56;
-
 }
